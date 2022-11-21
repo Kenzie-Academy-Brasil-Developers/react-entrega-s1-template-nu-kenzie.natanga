@@ -9,11 +9,11 @@ function HomePage({setEntry}) {
         <div className="container">
           <section className="homeinfo">
             <h1><span className="colorPrimary">Nu</span> Kenzie</h1>
-            <p>Centralize o controle das suas finanças</p>
-            <p>de forma rápida e segura</p>
-            <button onClick={() => setEntry(true)}>iniciar</button>
+            <p className="title1">Centralize o controle das suas finanças</p>
+            <p className="headline">de forma rápida e segura</p>
+            <button className="buttonText" onClick={() => setEntry(true)}>iniciar</button>
           </section>
-          <section>
+          <section className="img">
             <img src={imgPage} alt="home" />
           </section>
         </div>

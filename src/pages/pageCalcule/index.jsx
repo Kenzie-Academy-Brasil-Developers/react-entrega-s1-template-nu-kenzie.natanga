@@ -18,7 +18,7 @@ export function PageCalcule({ setEntry }) {
       <header>
         <div className="header container">
           <img src={nuKenzie} alt="logo" />
-          <button onClick={() => { setEntry(false); }} > Home </button>
+          <button className="buttonText one" onClick={() => { setEntry(false); }} > Home </button>
         </div>
       </header>
       <main className="container">
@@ -26,7 +26,7 @@ export function PageCalcule({ setEntry }) {
           <Form listTransactions={listTransactions} setListTransactions={setListTransactions} setFilterTransactions={setFilterTransactions} />
           <ValueComplete listTransactions={listTransactions} />
         </aside>
-        <section>
+        <section className="section">
           <Navegation listTransactions={listTransactions} setFilterTransactions={setFilterTransactions} />
           <List listTransactions={listTransactions} filterTransactions={filterTransactions} setListTransactions={setListTransactions} setFilterTransactions={setFilterTransactions}/>
         </section>

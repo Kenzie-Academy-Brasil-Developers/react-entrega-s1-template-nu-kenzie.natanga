@@ -1,0 +1,14 @@
+.article{
+  width: 100%;
+}
+.title4 {
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.valuesAll{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}

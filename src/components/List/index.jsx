@@ -1,3 +1,4 @@
+import "./style.css";
 import { Card } from "../Card";
 
 export function List({ listTransactions , filterTransactions ,setListTransactions,setFilterTransactions}) {

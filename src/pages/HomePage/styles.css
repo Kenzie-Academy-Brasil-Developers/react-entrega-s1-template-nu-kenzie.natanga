@@ -16,6 +16,7 @@
 }
 .homeinfo{
   text-align: left;
+  width: 25%;
 }
 
 .App-header {
@@ -34,4 +35,40 @@ img{
 }
 .colorPrimary{
   color: #FD377E;
+}
+.buttonText {
+  width: 90%;
+  border: 1px transparent;
+  left: 20px;
+  top: 20px;
+  border-radius: 8px;
+  padding: 13px 20px 13px 20px;
+  background-color: #FD377E;
+  color: white;
+}
+.buttonText:hover {
+  background-color: #E34981;
+}
+.title1 {
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+  font-size: 28px;
+}
+.headline {
+  font-family: "Nunito", sans-serif;
+  font-weight: Regular;
+  font-size: 16px;
+}
+button{
+  cursor: pointer;
+}
+@media (max-width:700px) {
+  .container{
+    display: flex;
+    flex-direction: column;
+  }
+  .homeinfo{
+    text-align: left;
+    width: 100%;
+  }
 }
