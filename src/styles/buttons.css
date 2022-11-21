@@ -1,0 +1,46 @@
+.buttonText {
+  left: 20px;
+  top: 20px;
+  border-radius: 8px;
+  padding: 13px 20px 13px 20px;
+  background-color: var(--color-primary);
+}
+.buttonText:hover {
+  background-color: var(--color-primary-2);
+}
+
+.buttonSecond {
+  left: 0px;
+  top: 0px;
+  border-radius: 8px;
+  padding: 15px;
+  background-color: var(--grey-2);
+}
+.buttonTree{
+  left: 0px;
+  top: 0px;
+  border-radius: 8px;
+  padding: 15px;
+  background-color: var(--grey-3);
+}
+.buttonFuor {
+  left: 0px;
+  top: 0px;
+  border-radius: 8px;
+  padding: 15px;
+  background-color: var(--color-primary);
+}
+.textareas {
+  height: 48px;
+  width: 325px;
+  left: 0px;
+  top: 31px;
+  border-radius: 8px;
+  padding: 0px 16px 0px 16px;
+  background-color: var(--grey-0);
+  border: 2px var(--grey-0);
+}
+.textareas:active {
+  background-color: var(--grey);
+  border: 2px var(--grey-4);
+}
