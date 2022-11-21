@@ -9,7 +9,7 @@ export function Form({listTransactions,setListTransactions,setFilterTransactions
     event.preventDefault()
     
     const item ={ 
-      index:listTransactions.map(ele=> ele.index > )
+      //index:listTransactions.map(ele=> ele.index > )
       description:descripition ,
       value:coin ,
       type : typeValue
